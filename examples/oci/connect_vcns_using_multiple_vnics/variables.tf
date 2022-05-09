@@ -41,25 +41,25 @@ variable "InstanceImageOCID" {
 
 # The First VCN
 variable "vcn_cidr" {
-  default = "10.0.0.0/16"
+  default = "0.0.0.0/0"
 }
 
 variable "mgmt_subnet_cidr" {
-  default = "10.0.0.0/24"
+  default = "0.0.0.0/0"
 }
 
 variable "private_subnet_cidr" {
-  default = "10.0.1.0/24"
+  default = "0.0.0.0/0"
 }
 
 variable "vcn_cidr2" {
-  default = "10.1.0.0/16"
+  default = "0.0.0.0/0"
 }
 
 variable "mgmt_subnet_cidr2" {
-  default = "10.1.0.0/24"
+  default = "0.0.0.0/0"
 }
 
 variable "private_subnet_cidr2" {
-  default = "10.1.1.0/24"
+  default = "0.0.0.0/0"
 }
